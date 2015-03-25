@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 #eth0 is my internet facing interface, eth1 is the BeagleBone USB connection
 echo Configurant ip eth1
