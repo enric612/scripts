@@ -56,9 +56,9 @@ echo "=================================================="
 echo "export #===============================" >> ~/.bashrc
 echo "export virtualenv" >> ~/.bashrc
 echo "export #===============================" >> ~/.bashrc
-echo "export WORKON_HOME=~/virtualenvs" >> ~/.bashrc
+echo "export WORKON_HOME=~/.virtualenvs" >> ~/.bashrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
-echo "export PIP_VIRTUALENV_BASE=~/virtualenvs" >> ~/.bashrc 
+echo "export PIP_VIRTUALENV_BASE=~/.virtualenvs" >> ~/.bashrc 
 source ~/.bashrc 
 echo "=================================================="
 echo "=================================================="
@@ -68,9 +68,9 @@ echo "=================================================="
 echo "export #===============================" >> ~/.zshrc
 echo "export virtualenv" >> ~/.zshrc
 echo "export #===============================" >> ~/.zshrc
-echo "export WORKON_HOME=~/virtualenvs" >> ~/.zshrc
+echo "export WORKON_HOME=~/.virtualenvs" >> ~/.zshrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.zshrc
-echo "export PIP_VIRTUALENV_BASE=~/virtualenvs" >> ~/.zshrc
+echo "export PIP_VIRTUALENV_BASE=~/.virtualenvs" >> ~/.zshrc
 source ~/.zshrc
 
 echo "=================================================="
